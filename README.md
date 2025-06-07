@@ -1,5 +1,5 @@
 # BluIP_test
-A web application that allows users to explore movies. The application should interact with TMDB API
+A web application that allows users to explore movies. The application interacts with TMDB API
 
 To get the data from the API one should put his API key in the /server/.env file like this:
 TMDB_API_KEY=YOUR_API_KEY
