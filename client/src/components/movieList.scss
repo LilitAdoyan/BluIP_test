@@ -1,0 +1,23 @@
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  .movie-card {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 8;
+    padding: 8;
+    cursor: pointer;
+    img{
+        width: 100%; border-radius: 4 ;
+    }
+    h3{
+        font-size:1.1em;margin: 8px 0 0 0
+    }
+    p{
+        font-size:0.9em; color:#555;
+    
+    }
+  }
+}
